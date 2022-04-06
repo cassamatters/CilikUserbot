@@ -1,6 +1,6 @@
-FROM greycilik/cilikuserbot:buster
+FROM cessible/cilikuserbot:buster
 
-RUN git clone -b Cilik-Userbot https://github.com/grey423/CilikUserbot /home/cilikuserbot/ \
+RUN git clone -b Cilik-Userbot https://github.com/cessible/CilikUserbot /home/cilikuserbot/ \
     && chmod 777 /home/cilikuserbot \
     && mkdir /home/cilikuserbot/bin/
 
